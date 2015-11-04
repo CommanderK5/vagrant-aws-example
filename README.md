@@ -45,5 +45,6 @@ nodes:
 ```
 
 Run:
-
+`vagrant up --provider=aws`
+or
 `vagrant up --provider=aws node01.aws.local`
