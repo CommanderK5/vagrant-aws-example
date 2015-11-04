@@ -6,7 +6,7 @@ aws.keypair_name: 'vagrant'
 aws.region: 'eu-west-1'
 aws.ami: 'ami-1c2e8b6b'
 aws.block_device_mapping:
-  DeviceName: '/dev/sda'
+  DeviceName: '/dev/sda1'
   Ebs.VolumeSize: 10
   Ebs.DeleteOnTermination: true
 override.ssh.username: 'ec2-user'
