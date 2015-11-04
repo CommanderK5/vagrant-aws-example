@@ -10,7 +10,7 @@ aws.block_device_mapping:
   Ebs.VolumeSize: 10
   Ebs.DeleteOnTermination: true
 override.ssh.username: 'ec2-user'
-override.ssh.private_key_path: '/absolute/path/to/your/private_key',
+override.ssh.private_key_path: '/absolute/path/to/your/private_key'
 
 # Dummy box
 config.vm.box: 'dummy'
