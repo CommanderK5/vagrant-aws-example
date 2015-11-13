@@ -23,7 +23,7 @@ nodes:
     tags:
       Name: 'node01.aws.local'
       Role: 'master'
-    secGroup: 'default'
+    securitygroup: 'default'
     instance_type: 't1.micro'
   node02:
     hostname: 'node02.aws.local'
@@ -31,5 +31,5 @@ nodes:
       Business Unit: 'Corporate'
       Name: 'node02.aws.local'
       Role: 'slave'
-    secGroup: 'default'
+    securitygroup: 'default'
     instance_type: 't1.micro'
